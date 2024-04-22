@@ -73,3 +73,84 @@ Promise.all(usuarios)
 - `Promise.resolve`: retorna uma `promises` resolvida.
 
 - `Promise.reject`: retorna uma `promises` rejeitada.
+
+### ASYNC e AWAIT
+
+Uma outra forma possível de tratar com funções assíncronas são as palavras-chave `async` e `await`. Sua funcionalidade é bem similar à de `promise` com `.then` e `.catch`. Veja: 
+
+```javascript
+const getUserById = (id) => {
+    return new Promise ((resolve, reject) => {
+        if (typeof id !== 'number') {
+            reject('Id inválido');
+            return
+        }
+
+        //função para encontrar o usuário de acordo com o id
+
+        resolve(usuario);
+    });
+}
+
+async function trocaNome() {
+    try {
+        const usuario = await getUserById(53);
+        usuario.nome = 'Lucas';
+        console.log(usuario);
+    } catch (error) {
+        console.log('Tivemos problema para encontrar o usuário')
+    }
+}
+
+trocaNome();
+```
+
+```terminal
+{ id: 53, nome: Lucas }
+```
+
+- obs: Pela falta do `.catch`, é interessante que se utilize o `try catch` para cobrir a possibilidade da `promise` retornar `reject`.
+
+### FETCH
+
+O uso do `fetch()` fornece uma forma fácil e lógica de buscar recursos de forma assíncrona através da rede. Por padrão o `fetch()` retorna uma `promise`. É importante salientar que a `promise` não faz a tratativa de erro do HTTP.
+
+#### RESPONSE
+
+O objeto `Response` é retornado como resposta do `promise` retornado pelo `fetch()`. Sua estrutura está descrita na imagem a seguir, juntamente com a descrição das principais propriedades: 
+
+![Estrutura do objeto Response](./images/estrutura-response.png "Estrutura do objeto Response")
+
+- `Resonse.ok`: Valor booleano que indica se a `Response` obteve sucesso (status entre 200-299) ou não;
+
+- `Response.status`: Status code da `Response`;
+
+- `Response.statusText`: Mensagem correspondente ao status code.
+
+Além disso, o objeto `Response` também possui métodos que podem auxiliar bastante na hora de tratar os dados retornados pelo `fetch()`. A seguir estão listados os 2 principais: 
+
+- `.json()`: Retorna uma `promise` que se resolve retornando `Response.body` no formato JSON;
+
+- `.text()`: Retorna uma `promise` que se resolve retornando `Response.body` no formato de string.
+
+Veja um exemplo do uso de `fetch()` a seguir:
+
+```javascript
+fetch('usuarios.json')
+    .then(response => {
+        if (response.ok === false) throw new Error('Problemas para encontrar o usuário');
+        return response.json();
+    })
+    .then(json => {
+        json.foreach(usuario => {
+            console.log(usuario.nome)
+        });
+    })
+    .catch(e => console.error(e));
+```
+
+```terminal
+Lucas
+Davi
+Caio
+```

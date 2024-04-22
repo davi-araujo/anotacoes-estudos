@@ -1,5 +1,6 @@
 ### DOM
 
+- `.innerHTML`: Contém o código HTML serializado descrevendo todos os descendentes dos elementos. 
 - `document.body.innerHTML = '...'`: Adiciona partes do HTML ao documento.
     
     - Caso queira manter o que já está escrito, deve-se usar **+=**.
