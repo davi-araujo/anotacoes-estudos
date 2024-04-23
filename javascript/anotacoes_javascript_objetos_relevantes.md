@@ -1,3 +1,5 @@
+- [Voltar ao início](../README.md)
+
 ### Objeto Number
 
 - `.toString()`: retorna o valor como string.

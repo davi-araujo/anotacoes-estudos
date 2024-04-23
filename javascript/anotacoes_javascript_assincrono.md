@@ -1,3 +1,5 @@
+- [Voltar ao início](../README.md)
+
 ### PROMISE
 
 Uma classe `promise` tem como objetivo de construir funções para processamento assíncrono de um valor não necessariamente conhecido. 

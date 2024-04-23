@@ -1,3 +1,5 @@
+- [Voltar ao início](../README.md)
+
 ### DOM
 
 - `.innerHTML`: Contém o código HTML serializado descrevendo todos os descendentes dos elementos. 

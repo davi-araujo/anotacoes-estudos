@@ -1,3 +1,7 @@
+- [Voltar ao início](../README.md)
+
+### Operações matemáticas
+
 - **Raiz Quadrada de x**: x ** 1/2. 
 
 ### Laço **while** e **do while**

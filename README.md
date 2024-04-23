@@ -1,7 +1,22 @@
-Este repositório possui anotações feitas a partir dos meus estudos em JavaScript. Ele está dividido em 4 arquivos:
-- [anotacoes_javascript.md](anotacoes_javascript.md), focado na linguagem propriamente dita;
-- [anotacoes_javacript_dom.md](anotacoes_javascript_dom.md), focado na manipulação de DOM utilizando JavaScript;
-- [anotacoes_javascript_objetos_relevantes.md](anotacoes_javascript_objetos_relevantes.md), focado em objetos relevantes que estudei durante este período.
-- [anotacoes_javascript_assincrono.md](anotacoes_javascript_assincrono.md), focado em classes e funções relacionadas com o JavaScript de forma assíncrona.
+# Estudos
 
-Os arquivos serão atualizados de acordo com o avanço do estudo.
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,react" />
+  </a>
+</p>
+
+Bem-vindo às minhas anotações de estudo. Durante meus estudos, gosto de criar arquivos markdown para concentrar as informações que considero importantes para o futuro. Aqui você vai encontrar todas essas anotações. Espero que seja útil para você também! Qualquer sugestão ou erro, por favor, não exite em me contatar! Bons estudos! 
+
+## <img src="https://skillicons.dev/icons?i=js" width="15px"/> JavaScript 
+
+A parte de JavaScript é dividida em 4 seções. Logo abaixo há o link para acesso: 
+
+- [Noções básicas](javascript/anotacoes_javascript.md), focado na linguagem propriamente dita;
+- [DOM com JavaScript](javascript/anotacoes_javascript_dom.md), focado na manipulação de DOM utilizando JavaScript;
+- [Objetos úteis](javascript/anotacoes_javascript_objetos_relevantes.md), focado em objetos relevantes que estudei durante este período;
+- [JavaScript assíncrono](javascript/anotacoes_javascript_assincrono.md), focado em classes e funções relacionadas com o JavaScript de forma assíncrona.
+
+## <img src="https://skillicons.dev/icons?i=react" width="15px"/> React 
+
+A parte de JavaScript é dividida em 4 seções. Logo abaixo há o link para acesso:
