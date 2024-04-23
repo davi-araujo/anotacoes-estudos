@@ -121,7 +121,7 @@ O uso do `fetch()` fornece uma forma fácil e lógica de buscar recursos de form
 
 O objeto `Response` é retornado como resposta do `promise` retornado pelo `fetch()`. Sua estrutura está descrita na imagem a seguir, juntamente com a descrição das principais propriedades: 
 
-![Estrutura do objeto Response](./images/estrutura-response.png "Estrutura do objeto Response")
+![Estrutura do objeto Response](../images/estrutura-response.png "Estrutura do objeto Response")
 
 - `Resonse.ok`: Valor booleano que indica se a `Response` obteve sucesso (status entre 200-299) ou não;
 
