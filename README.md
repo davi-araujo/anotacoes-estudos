@@ -1,9 +1,7 @@
 # Estudos
 
 <p align="center">
-  <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=js,react" />
-  </a>
 </p>
 
 Bem-vindo às minhas anotações de estudo. Durante meus estudos, gosto de criar arquivos markdown para concentrar as informações que considero importantes para o futuro. Aqui você vai encontrar todas essas anotações. Espero que seja útil para você também! Qualquer sugestão ou erro, por favor, não exite em me contatar! Bons estudos! 
