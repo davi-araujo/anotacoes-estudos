@@ -17,4 +17,7 @@ A parte de JavaScript é dividida em 4 seções. Logo abaixo há o link para ace
 
 ## <img src="https://skillicons.dev/icons?i=react" width="15px"/> React 
 
-A parte de JavaScript é dividida em 4 seções. Logo abaixo há o link para acesso:
+A parte de React é dividida em 2 seções. Logo abaixo há o link para acesso:
+
+- [Noções básicas](react/anotacoes_react.md), focado no início do projeto e em informações basicas úteis para todo o projeto;
+- [React com classes](react/anotacoes_react_classe.md), focado no uso de classes para a construção dos componentes.
