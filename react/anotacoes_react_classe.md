@@ -24,6 +24,24 @@ class App extends Component {
 }
 ```
 
+#### Alterando o valor do estado (state)
+
+A classe `Component` disponibiliza o método `setStatus` para ser feita a troca do valor do estado. A seguir é possível ver este método sendo utilizado:
+
+```javascript
+class App extends Component {
+    state = {
+        counter: 0
+    };
+
+    addCounter = (event) => {
+        this.setState({ counter: 2 });
+    };
+
+    //resto do componente
+}
+```
+
 #### Métodos de ciclo de vida
 
 A classe `Component` conta com métodos que controlam o ciclo de vida de um componente. Abaixo há o exemplo de alguns desses métodos (para ver todos, basta buscar por "lifecycle methods"):
