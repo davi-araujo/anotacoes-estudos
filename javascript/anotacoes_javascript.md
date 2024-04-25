@@ -82,6 +82,44 @@ console.log(um, tres, cinco, sete);
 1 3 5 7
 ```
 
+- `.map()`: Invoca a função que passa por cada elemento do Array e devolve um novo Array como resultado.
+
+- `.filter`: Cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida.
+
+Para os métodos `.map()` e `.filter()`, as funções `callback` passadas como parâmetro podem receber 3 argumentos possíveis: o valor atual, o índice e o array de origem (nesta ordem). A seguir há um exemplo do uso desses dois métodos: 
+
+```javascript
+//uso do .map()
+const lista = [1, 2, 3, 4, 5];
+const novaLista = lista.map(numero => numero*2);
+
+console.log(novaLista);
+
+//uso do .filter()
+const nomes = ['Davi', 'Guilherme', 'Caio', 'Gabriel'];
+const nomesFiltados = nomes.filter(nome => nome.length === 4);
+
+console.log(nomesFiltados);
+```
+
+```terminal
+[ 2, 4, 6, 8, 10 ]
+[ 'Davi', 'Caio' ]
+```
+
+- `.reduce()`: executa uma função reducer (fornecida por você) para cada elemento do array, resultando num único valor de retorno. A função reducer pode receber 4 parâmetros, sendo os dois primeiros obrigatórios: acumulador(para armazenar o valor da operação), valor atual, índice e o array original. A seguir há um exemplo do uso desse método:
+
+```javascript
+const lista = [1, 2, 3, 4, 5];
+const soma = lista.reduce((acumulador, numero) => acumulador + numero);
+
+console.log(soma);
+```
+
+```terminal
+15
+```
+
 - Há várias ouras funções relacionadas a arrays.
 
 ### Função
