@@ -111,6 +111,8 @@ trocaNome();
 { id: 53, nome: Lucas }
 ```
 
+- **IMPORTANTE**: funções assíncronas sempre retornam uma `promise`.
+
 - obs: Pela falta do `.catch`, é interessante que se utilize o `try catch` para cobrir a possibilidade da `promise` retornar `reject`.
 
 ### FETCH

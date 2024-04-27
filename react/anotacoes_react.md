@@ -28,3 +28,25 @@ const addCounter = (event) => {
     // restante do código
 }
 ```
+
+### Props
+
+O `props` é a forma que o React utiliza para passar informações entre componentes. Para que um componente receba o `props`, basta incluí-lo como "parâmetro" do componente. O código a seguir exemplifica o uso de `props`: 
+
+```javascript
+export const UserCard = (props) => {
+    return (
+        //código
+    );
+}
+```
+
+Outra forma de receber o `props` é fazendo destructuring do objeto diretamente na parametrização. Veja: 
+
+```javascript
+export const UserCard = ({ nome, idade }) => {
+    return (
+        //código
+    );
+}
+```
