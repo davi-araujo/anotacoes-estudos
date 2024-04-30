@@ -18,7 +18,11 @@ Para executar o projeto é necessário rodar o seguinte código no terminal dent
 npm start
 ```
 
-### Prevenção de evento padrão do componente
+### Eventos Sintéticos do React
+
+O React permite que eventos sejam controlados. Estes eventos estão relacionados com alguma ação que o usuário faz, como por exemplo clique, tecla, envio de formulário, dentre outros. Há uma infinidade de eventos. Alguns dos principais são `onClick`, `onChange` e `onSubmit`. Para o mapeamento de outros eventos sintéticos, basta procurar por "eventos sinteticos react".
+
+#### Prevenção de evento padrão do componente
 
 Alguns componentes do JSX possuem eventos padrão (como por exemplo o `<a></a>`, que redireciona para outra página). Para prevenir tais eventos, é possível utilizar a função `.preventDefault()` no evento. O código abaixo exemplifica tal prevenção: 
 

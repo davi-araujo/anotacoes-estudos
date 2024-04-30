@@ -42,6 +42,8 @@ class App extends Component {
 }
 ```
 
+- **nota:** sempre que o `state` altera, o método `render()` é recarregado.
+
 #### Métodos de ciclo de vida
 
 A classe `Component` conta com métodos que controlam o ciclo de vida de um componente. Abaixo há o exemplo de alguns desses métodos (para ver todos, basta buscar por "lifecycle methods"):
