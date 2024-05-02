@@ -26,7 +26,7 @@ class App extends Component {
 
 #### Alterando o valor do estado (state)
 
-A classe `Component` disponibiliza o método `setStatus` para ser feita a troca do valor do estado. A seguir é possível ver este método sendo utilizado:
+A classe `Component` disponibiliza o método `setState` para ser feita a troca do valor do estado. A seguir é possível ver este método sendo utilizado:
 
 ```javascript
 class App extends Component {
@@ -41,6 +41,8 @@ class App extends Component {
     //resto do componente
 }
 ```
+
+O método `setState` pode receber como segundo parâmetro uma função de callback para acessar os dados do `state` logo após a alteração.
 
 - **nota:** sempre que o `state` altera, o método `render()` é recarregado.
 
