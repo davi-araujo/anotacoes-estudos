@@ -1,7 +1,7 @@
 # Estudos
 
 <p align="center">
-    <img src="https://skillicons.dev/icons?i=js,react" />
+    <img src="https://skillicons.dev/icons?i=js,react,html" />
 </p>
 
 Bem-vindo às minhas anotações de estudo. Durante meus estudos, gosto de criar arquivos markdown para concentrar as informações que considero importantes para o futuro. Aqui você vai encontrar todas essas anotações. Espero que seja útil para você também! Qualquer sugestão ou erro, por favor, não exite em me contatar! Bons estudos! 
@@ -22,3 +22,9 @@ A parte de React é dividida em 3 seções. Logo abaixo há o link para acesso:
 - [Noções básicas](react/anotacoes_react.md), focado no início do projeto e em informações basicas úteis para todo o projeto;
 - [React com classes](react/anotacoes_react_classe.md), focado no uso de classes para a construção dos componentes;
 - [Funcionalidades](react/anotacoes_react_funcionalidades.md), apresentando a implementação de algumas funcionalidades úteis que me deparei durante os estudos.
+
+## <img src="https://skillicons.dev/icons?i=html" width="15px"/> HTML 
+
+A parte de HTML é dividida em 1 seção. Logo abaixo há o link para acesso:
+
+- [Estrutura básica](html/anotacoes_html.md), focada na estrutura báscia de um arquivo HTML.
