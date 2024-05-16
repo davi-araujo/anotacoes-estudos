@@ -27,10 +27,10 @@ A parte de React é dividida em 3 seções. Logo abaixo há o link para acesso:
 
 A parte de HTML é dividida em 1 seção. Logo abaixo há o link para acesso:
 
-- [Estrutura básica](html/anotacoes_html.md), focada na estrutura báscia de um arquivo HTML.
+- [Estrutura básica](html/anotacoes_html.md), focada na estrutura básica de um arquivo HTML.
 
 ## <img src="https://skillicons.dev/icons?i=css" width="15px"/> CSS 
 
 A parte de CSS é dividida em 1 seção. Logo abaixo há o link para acesso:
 
-- [Estrutura básica](css/anotacoes_css.md), focada na estrutura báscia de um arquivo HTML.
+- [Estilizações básicas](css/anotacoes_css.md), focada nas estilizações mais básicas que o CSS define.
