@@ -19,7 +19,7 @@ A parte de JavaScript é dividida em 4 seções. Logo abaixo há o link para ace
 
 A parte de React é dividida em 3 seções. Logo abaixo há o link para acesso:
 
-- [Noções básicas](react/anotacoes_react.md), focado no início do projeto e em informações basicas úteis para todo o projeto;
+- [Noções básicas](react/anotacoes_react.md), focado no início do projeto e em informações básicas úteis para todo o projeto;
 - [React com classes](react/anotacoes_react_classe.md), focado no uso de classes para a construção dos componentes;
 - [Funcionalidades](react/anotacoes_react_funcionalidades.md), apresentando a implementação de algumas funcionalidades úteis que me deparei durante os estudos.
 
