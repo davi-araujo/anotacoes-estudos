@@ -1,7 +1,7 @@
 # Estudos
 
 <p align="center">
-    <img src="https://skillicons.dev/icons?i=js,react,html" />
+    <img src="https://skillicons.dev/icons?i=js,react,html,css" />
 </p>
 
 Bem-vindo às minhas anotações de estudo. Durante meus estudos, gosto de criar arquivos markdown para concentrar as informações que considero importantes para o futuro. Aqui você vai encontrar todas essas anotações. Espero que seja útil para você também! Qualquer sugestão ou erro, por favor, não exite em me contatar! Bons estudos! 
@@ -28,3 +28,9 @@ A parte de React é dividida em 3 seções. Logo abaixo há o link para acesso:
 A parte de HTML é dividida em 1 seção. Logo abaixo há o link para acesso:
 
 - [Estrutura básica](html/anotacoes_html.md), focada na estrutura báscia de um arquivo HTML.
+
+## <img src="https://skillicons.dev/icons?i=css" width="15px"/> CSS 
+
+A parte de CSS é dividida em 1 seção. Logo abaixo há o link para acesso:
+
+- [Estrutura básica](css/anotacoes_css.md), focada na estrutura báscia de um arquivo HTML.

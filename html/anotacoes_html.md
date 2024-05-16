@@ -142,3 +142,18 @@ Veja uma tabela formada:
 ```
 
 ![Tabela](../images/tabela-html.png "Tabela")
+
+### Formulário
+
+O formulário é definido pelo HTML com a tag `<form></form>` e, dentro da tag, outros componentes são utilizados, como: 
+
+- `<input>`: campo de texto para que o usuário insira dados.
+    - `name`: importante para a coleta de dados inseridos.
+    - `type`: define o tipo do componente, como text, password, button, submit, radio (mesmo 'name' para possibilitar marcar apenas um), checkbox e etc.
+    - `value`: assim como o 'name', é importante para a coleta dos dados inseridos, porém trata cada 'input' de forma individual.
+
+- `<select></select>`: campo de texto para que o usuário selecione alguma opção.
+    - `<option></option>`: define uma opção para o `<select>`.
+    - no caso do `<select>` o atributo 'name' deve ser inserido no próprio `<select>`, enquanto o 'value' deve ser inserido no `<option>`
+
+- `<textarea></textarea>`: caixa de texto com mais linhas.
