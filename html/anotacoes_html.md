@@ -12,6 +12,12 @@ A seção apresenta algumas estruturas importantes presentes na tag `<head></hea
 - `<meta>`: define informações de metadados.
     - `charset="utf-8"`: define a codificação da página web.
 
+#### Classes e ID
+
+As classes e IDs são utilizados principalmente para selecionar algum elemento, seja para estilização via CSS, seja para manipulação via JavaScript, e etc. 
+
+Um ID de um elemento é algo único, enquanto a classe pode se repetir sem muitos problemas.
+
 ### Formatação de textos
 
 Os **cabeçalhos** utilizadas para formatação de texto. Definem títulos na página. São definidas da seguinte forma no HTML:
@@ -157,3 +163,7 @@ O formulário é definido pelo HTML com a tag `<form></form>` e, dentro da tag, 
     - no caso do `<select>` o atributo 'name' deve ser inserido no próprio `<select>`, enquanto o 'value' deve ser inserido no `<option>`
 
 - `<textarea></textarea>`: caixa de texto com mais linhas.
+
+### Estrutuação com `<div></div>`
+
+Para uma melhor estruturação do site, o HTML disponibiliza a tag `<div></div>`. A tag cria divisões na página que funcionam como containers para organização de elementos. 
