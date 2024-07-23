@@ -35,4 +35,4 @@ A parte de HTML é dividida em 1 seção. Logo abaixo há o link para acesso:
 A parte de CSS é dividida em 2 seções. Logo abaixo há o link para acesso:
 
 - [Estilizações básicas](css/anotacoes_css.md), focada nas estilizações mais básicas que o CSS define;
-- [Flexbox e gid](css/anotacoes_grid_flex.md), focada no uso de flexbox e grid.
+- [Flexbox e grid](css/anotacoes_grid_flex.md), focada no uso de flexbox e grid.
