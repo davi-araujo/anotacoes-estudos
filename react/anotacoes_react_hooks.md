@@ -69,3 +69,66 @@ function App() {
     )
 }
 ```
+
+### useRef
+
+O hook `useRef` cria uma referência a algum componente da página para substituir a função *document.querySelector* do JavaScript. Veja sua utilização: 
+
+```javascript
+function App() {
+  const input = useRef(<estado_inicial>);
+
+  return (
+    <div className="App">
+        <label>Insira seu nome</label>
+        <input type='text' ref={input}/>
+    </div>
+  );
+}
+```
+
+Da forma feita acima, a referência `input` aponta para a tag `<input />` por meio do parâmetro `ref`. É importante pontuar que, para acessar o input em si, deve-se utilizar o parâmetro `.current`.
+
+### useContext
+
+O hook `useContext` serve para passar um contexto entre componentes de forma mais fácil, facilitando a utilização de informações em diferentes componentes.
+
+#### Criação do contexto
+
+Para criar o contexto é necessário utilizar uma função padrão do React de criação, além de um objeto, variável ou etc para servir como o contexto propriamente dito. Veja: 
+
+```javascript
+const Context = React.createContext()
+
+const loggedUser = {
+  name: 'Davi Matias Araújo',
+  age: 22,
+  address: 'CNB 2 lote 5 apt 803'
+}
+```
+
+#### Utilização do contexto
+
+Para a utilização do contexto é utilizado o hook propriamente dito. Para acessar o contexto é utilizado uma tag do contexto. Veja: 
+
+```javascript
+function App() {
+  return (
+    <Context.Provider value={loggedUser}>
+      ...
+    </Context.Provider>
+  );
+}
+```
+
+Dentro da tag `<Context.Provider value={...}>` qualquer componente pode acessar o contexto da seguinte forma: 
+
+```javascript
+function UserCard() {
+  const user = useContext(Context);
+
+  return (
+    ...
+  )
+}
+```
