@@ -1,7 +1,7 @@
 # Estudos
 
 <p align="center">
-    <img src="https://skillicons.dev/icons?i=js,react,html,css" />
+    <img src="https://skillicons.dev/icons?i=js,react,django,html,css" />
 </p>
 
 Bem-vindo às minhas anotações de estudo. Durante meus estudos, gosto de criar arquivos markdown para concentrar as informações que considero importantes para o futuro. Aqui você vai encontrar todas essas anotações. Espero que seja útil para você também! Qualquer sugestão ou erro, por favor, não exite em me contatar! Bons estudos! 
@@ -23,6 +23,12 @@ A parte de React é dividida em 4 seções. Logo abaixo há o link para acesso:
 - [React com classes](react/anotacoes_react_classe.md), focado no uso de classes para a construção dos componentes;
 - [React Hooks](react/anotacoes_react_hooks.md), focado na descrição do funcionamento dos principais hooks;
 - [Funcionalidades](react/anotacoes_react_funcionalidades.md), apresentando a implementação de algumas funcionalidades úteis que me deparei durante os estudos.
+
+## <img src="https://skillicons.dev/icons?i=django" width="15px"/> Django 
+
+A parte de Django é dividida em 1 seção. Logo abaixo há o link para acesso:
+
+- [Início do projeto](django/anotacoes_django.md), focada na iniciação do projeto e em informações básicas.
 
 ## <img src="https://skillicons.dev/icons?i=html" width="15px"/> HTML 
 
